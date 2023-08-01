@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../test_1st/css/test.css">
+    <title>Test</title>
+</head>
+<body>
+    <form action="#" method="#">
+    <table>
+            <!-- Full name -->
+        <tr>    
+            <td><label for="full name">Full Name<span>*</span> </label></td>
+            <td>        
+                <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+            </td>
+         </tr>
+        <!-- University -->
+        <tr>
+        <td><label for="uni">University</label></td>
+            <td>
+            <select name="uni" id="uni" required>
+                <option value="Select University">Select University</option>
+                <option value="Harvard University">Harvard University</option>
+                <option value="University of Oxford">University of Oxford</option>
+                <option value="Stanford University">Stanford University</option>
+            </select>
+            </td>
+        </tr>
+       
+
+        <!-- IF Other - Please Specify -->
+        <tr>
+           <td><label for="Other">If Other - Please Specify</label></td>
+            <td><input type="text" name="other" id="other"></td>
+       
+        </tr>
+
+        <!-- Fuculty -->
+        <tr>
+            <td><label for="Faculty">Fucalty</label></td>
+            <td>
+                <select name="Faculty" id="Faculty" required>
+                    <option value="Select Faculty">Select Fucalty</option>
+                    <option value="Faculty of Arts">Faculty of Arts</option>
+                    <option value="Faculty of Engineering">Faculty of Engineering</option>
+                    <option value="Faculty of Philosophy">Faculty of Philosophy</option>
+                </select>
+            </td>
+        </tr>
+       
+
+        <!-- IF Other - Please Specify -->
+        <tr>
+            <td><label for="Other">If Other - Please Specify</label></td>
+            <td><input type="text" name="other" id="other" required></td>
+         </tr>
+       
+
+        <!-- Academic year of PhD -->
+        <tr>
+        <td><label for="PhD">Academic year of PhD<span>*</span></label></td>
+            <td> 
+              <select name="Faculty" id="Faculty" required>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+              </select>
+            </td>
+        </tr>
+       
+
+        <!-- the place of the work -->
+        <tr>
+            <td rowspan="6"><p>Where would you like to work?</p></td>
+            <tr>
+              <td>
+                <!-- academic -->
+              <input type="checkbox" name="work" id="academic" value="academic" >
+              <label for="academic">academic</label><br>
+              </td>
+            </tr>
+                <!-- Industry -->
+            <tr>
+                <td>
+                <input type="checkbox" name="work" id="Industry" value="Industry" >
+                <label for="Industry">Industry</label>
+                </td>
+            </tr>
+                <!-- Consultant -->
+            <tr>
+                <td>
+                <input type="checkbox" name="work" id="Consultant" value="Consultant" >
+                <label for="Consultant">Consultant</label>
+                </td>
+            </tr>
+                <!-- Finance -->
+            <tr>
+                <td>
+                <input type="checkbox" name="work" id="Finance" value="Finance" >
+                <label for="Finance">Finance</label>
+                </td>
+            </tr>
+                <!-- Policy/Govement/NGO -->
+            <tr> 
+                <td>
+                <input type="checkbox" name="work" id="Policy/Govement/NGO" value="Policy/Govement/NGO" ></input>
+                <label for="Policy/Govement/NGO">Policy/Govement/NGO</label>
+                </td>   
+            </tr> 
+        </tr>
+
+        <!-- Email -->
+        <tr>
+            <td rowspan="2"><label for="email">E-mail<span>*</span></label></td>
+            <td><input type="email" name="email" id="email" placeholder="ex:myname@example.corr" required></td>
+        </tr>
+        <tr>   
+            <td><input type="co-email" name="co-email" id="co-email" placeholder="Confirm Email" required></td>
+        </tr>
+        <!-- would you like -->
+        <tr>
+            <td>would you like to sign up to our newsletter?</td>
+            <td>
+                <input type="radio" name="yes" id="yes" value="yes">
+                <label for="yes">YES</label>
+            
+           
+                <input type="radio" name="already signed up" id="already signed up" value="No,I have already signed up">
+                <label for="already signed up">No,I have already signed up</label>
+
+                <input type="radio" name="No" id="No" value="No">
+                <label for="No">No</label>
+            </td>
+        </tr>
+        <!-- submit -->
+        <tr>
+            <td></td>
+            <td class="submit"><input type="submit" name="submit" value="submit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
